@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+/* For all scrollbars */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* For specific element scrollbars */
+/* .element-class::-webkit-scrollbar {
+  display: none;
+} */
